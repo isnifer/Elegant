@@ -481,6 +481,7 @@ a {
   /* IE7 inline-block hack */
   *zoom: 1;
   height: 22px;
+  padding: 10px 17px 20px;
 }
 #header > div.head-info > ul.main-menu > li.active {
   background: #ef0f49;
