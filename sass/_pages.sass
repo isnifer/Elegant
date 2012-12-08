@@ -138,20 +138,37 @@
     > span.tel
       font-family: "DaxlineCyrSCbold"
 
-  > a.props
-    width: 259px
-    height: 68px
-    display: block
-    background: url(../img/props.png) no-repeat
+  > aside.files
     margin-top: 85px
 
-  > a.price
-    width: 259px
-    height: 68px
-    display: block
-    background: url(../img/price-contact.png) no-repeat
-    margin-top: 15px
+    > div.pdf-link
+      width: 259px
+      height: 68px
+      background: url(../img/pdf-shadow.png) no-repeat
 
+      > a
+        line-height: 20px
+        font: bold 20px DaxlineCyrSCregular
+        color: white
+        width: 200px
+        height: 39px
+        display: block
+        background: url(../img/pdf-ico.png) 16px 15px no-repeat #ff054e
+        text-decoration: none
+        margin-top: 15px
+        padding: 17px 0 0 55px
+
+        > span
+          +display-inline-block
+          width: 13px
+          height: 12px
+          background: url(../img/pdf-arrow.png) no-repeat
+          font-size: 1px
+          line-height: 1px
+          vertical-align: middle
+
+        &:hover
+          background-color: #c80a41
 
 
 #catalog-page
@@ -272,23 +289,34 @@
             width: 139px
 
 
-
-      > a.props
+      > div.pdf-link
         width: 259px
         height: 68px
-        display: block
-        background: url(../img/props.png) no-repeat
-        margin-top: 25px
+        background: url(../img/pdf-shadow.png) no-repeat
 
-      > a.price
-        width: 259px
-        height: 68px
-        display: block
-        background: url(../img/price.png) no-repeat
-        margin-top: 15px
+        > a
+          line-height: 20px
+          font: bold 20px DaxlineCyrSCregular
+          color: white
+          width: 200px
+          height: 39px
+          display: block
+          background: url(../img/pdf-ico.png) 16px 15px no-repeat #ff054e
+          text-decoration: none
+          margin-top: 15px
+          padding: 17px 0 0 55px
 
-        &:hover
-          background: url(../img/price-hover.png) no-repeat
+          > span
+            +display-inline-block
+            width: 13px
+            height: 12px
+            background: url(../img/pdf-arrow.png) no-repeat
+            font-size: 1px
+            line-height: 1px
+            vertical-align: middle
+
+          &:hover
+            background-color: #c80a41
 
     > div.kit
       width: 629px

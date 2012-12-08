@@ -715,19 +715,40 @@ section.modal {
 #contacts-page > div.phone > span.tel {
   font-family: "DaxlineCyrSCbold";
 }
-#contacts-page > a.props {
-  width: 259px;
-  height: 68px;
-  display: block;
-  background: url(../img/props.png) no-repeat;
+#contacts-page > aside.files {
   margin-top: 85px;
 }
-#contacts-page > a.price {
+#contacts-page > aside.files > div.pdf-link {
   width: 259px;
   height: 68px;
+  background: url(../img/pdf-shadow.png) no-repeat;
+}
+#contacts-page > aside.files > div.pdf-link > a {
+  line-height: 20px;
+  font: bold 20px DaxlineCyrSCregular;
+  color: white;
+  width: 200px;
+  height: 39px;
   display: block;
-  background: url(../img/price-contact.png) no-repeat;
+  background: url(../img/pdf-ico.png) 16px 15px no-repeat #ff054e;
+  text-decoration: none;
   margin-top: 15px;
+  padding: 17px 0 0 55px;
+}
+#contacts-page > aside.files > div.pdf-link > a > span {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  width: 13px;
+  height: 12px;
+  background: url(../img/pdf-arrow.png) no-repeat;
+  font-size: 1px;
+  line-height: 1px;
+  vertical-align: middle;
+}
+#contacts-page > aside.files > div.pdf-link > a:hover {
+  background-color: #c80a41;
 }
 
 #catalog-page {
@@ -864,22 +885,37 @@ section.modal {
   margin-left: 0;
   width: 139px;
 }
-#product-page > div.content > aside.sidebar > a.props {
+#product-page > div.content > aside.sidebar > div.pdf-link {
   width: 259px;
   height: 68px;
-  display: block;
-  background: url(../img/props.png) no-repeat;
-  margin-top: 25px;
+  background: url(../img/pdf-shadow.png) no-repeat;
 }
-#product-page > div.content > aside.sidebar > a.price {
-  width: 259px;
-  height: 68px;
+#product-page > div.content > aside.sidebar > div.pdf-link > a {
+  line-height: 20px;
+  font: bold 20px DaxlineCyrSCregular;
+  color: white;
+  width: 200px;
+  height: 39px;
   display: block;
-  background: url(../img/price.png) no-repeat;
+  background: url(../img/pdf-ico.png) 16px 15px no-repeat #ff054e;
+  text-decoration: none;
   margin-top: 15px;
+  padding: 17px 0 0 55px;
 }
-#product-page > div.content > aside.sidebar > a.price:hover {
-  background: url(../img/price-hover.png) no-repeat;
+#product-page > div.content > aside.sidebar > div.pdf-link > a > span {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+  *zoom: 1;
+  width: 13px;
+  height: 12px;
+  background: url(../img/pdf-arrow.png) no-repeat;
+  font-size: 1px;
+  line-height: 1px;
+  vertical-align: middle;
+}
+#product-page > div.content > aside.sidebar > div.pdf-link > a:hover {
+  background-color: #c80a41;
 }
 #product-page > div.content > div.kit {
   width: 629px;
