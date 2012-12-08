@@ -933,9 +933,11 @@ section.modal {
   font: 25px "DaxlineCyrSCbold";
   color: #ef0f49;
   display: block;
+  margin-bottom: 20px;
 }
 #product-page > div.content > div.kit > div.rules > p {
   font: 15px "DaxlineCyrSCregular";
+  margin-bottom: 20px;
 }
 #product-page > div.content > div.kit > div.rules > p.warning {
   font: 20px "DaxlineCyrSCbold";
