@@ -467,7 +467,7 @@ a {
   margin: 0;
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 15px;
   height: 42px;
 }
@@ -480,17 +480,19 @@ a {
   *display: inline;
   /* IE7 inline-block hack */
   *zoom: 1;
+  height: 22px;
+}
+#header > div.head-info > ul.main-menu > li.active {
+  background: #ef0f49;
+  padding: 10px 17px 20px;
+}
+#header > div.head-info > ul.main-menu > li.active > a {
+  color: white;
 }
 #header > div.head-info > ul.main-menu > li > a {
   color: #ef0f49;
   font: bold 20px DaxlineCyrSCregular;
   text-decoration: underline;
-  padding: 10px 17px 19px;
-}
-#header > div.head-info > ul.main-menu > li > a.active {
-  background: #ef0f49;
-  color: white;
-  padding: 10px 17px 19px;
 }
 #header > div.head-info > ul.main-menu > li > a:hover {
   color: #0a0a15;

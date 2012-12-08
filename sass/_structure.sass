@@ -62,24 +62,26 @@ a
     > ul.main-menu
       +reset-ul
       position: absolute
-      bottom: 0
+      bottom: 10px
       left: 15px
       height: 42px
 
       > li
         +reset-list
         +display-inline-block
+        height: 22px
+
+        &.active
+          background: #EF0F49
+          padding: 10px 17px 20px
+
+          > a
+            color: white
 
         > a
           color: #ef0f49
           font: bold 20px DaxlineCyrSCregular
           text-decoration: underline
-          padding: 10px 17px 19px
-
-          &.active
-            background: #EF0F49
-            color: white
-            padding: 10px 17px 19px
 
           &:hover
             color: #0a0a15
