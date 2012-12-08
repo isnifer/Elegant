@@ -723,7 +723,7 @@ section.modal {
   width: 259px;
   height: 68px;
   display: block;
-  background: url(../img/price.png) no-repeat;
+  background: url(../img/price-contact.png) no-repeat;
   margin-top: 15px;
 }
 
@@ -874,6 +874,9 @@ section.modal {
   display: block;
   background: url(../img/price.png) no-repeat;
   margin-top: 15px;
+}
+#product-page > div.content > aside.sidebar > a.price:hover {
+  background: url(../img/price-hover.png) no-repeat;
 }
 #product-page > div.content > div.kit {
   width: 629px;
