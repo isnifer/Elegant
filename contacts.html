@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta charset="utf-8"/>
+    <title>Elegant</title>
+    <meta name="description" content="Short page description"/>
+    <meta name="keywords" content="first second third key word"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!--[if lt IE 9]>
+        <script src="/js/libs/html5shiv-printshiv.js"></script>
+    <![endif]-->
+    <script src="/js/libs/LAB.min.js"></script>
+</head>
+
+<body>
+
+<div id="container" class="inner">
+
+    <header id="header" class="inner">
+      <div class="head-info">
+        <a href="/" class="small-logo"><img src="/img/small-logo.png" alt="Elegant"></a>
+        <div class="call-us">
+          <br/><span>позвоните нам</span><br/>
+          <span class="tel">8 800-100-85-80</span>
+        </div>
+        <ul class="main-menu">
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="catalog.html">Продукция</a></li>
+          <li><a href="contacts.html" class="active">Контактная информация</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="main" class="inner">
+
+        <article id="contacts-page">
+          <div class="yamap">
+            <!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (начало) -->
+            <div id="ymaps-map-id_135494724708097252881" style="width: 452px; height: 374px; margin: 10px;"></div>
+            <div style="width: 464px; text-align: right;"><a href="http://api.yandex.ru/maps/tools/constructor/index.xml" target="_blank" style="color: #1A3DC1; font: 13px Arial, Helvetica, sans-serif;">Создано с помощью инструментов Яндекс.Карт</a></div>
+            <script type="text/javascript">
+              function fid_135494724708097252881(ymaps) {
+                var map = new ymaps.Map("ymaps-map-id_135494724708097252881", {
+                  center: [40.94535134921263, 57.02318746597512],
+                  zoom: 16,
+                  type: "yandex#map"
+                });
+                map.controls
+                  .add("zoomControl")
+                  .add("mapTools")
+                  .add(new ymaps.control.TypeSelector(["yandex#map", "yandex#satellite", "yandex#hybrid", "yandex#publicMap"]));
+                map.geoObjects
+                  .add(new ymaps.Placemark([40.944869, 57.023269], {
+                    balloonContent: ""
+                  }, {
+                    preset: "twirl#lightblueDotIcon"
+                  }));
+              };
+            </script>
+            <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=ru-RU&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_135494724708097252881"></script>
+            <!-- Этот блок кода нужно вставить в ту часть страницы, где вы хотите разместить карту (конец) -->
+          </div>
+
+          <div class="address">191186, Россия, Иваново, ул. Смольная, 4/2</div>
+          <div class="phone">
+            Тел.: 8 (4932) <span class="tel">92-99-95,</span><span class="tel"> 8 960 512-01-11,</span><br/>
+            <span class="tel">8 903-888-66-77</span>
+          </div>
+          <div class="email">E-mail: <a href="mailto:honka@honka-spb.ru">honka@honka-spb.ru</a></div>
+
+          <a href="#" class="props"></a>
+          <a href="#" class="price"></a>
+
+        </article>
+
+    </div>
+
+    <footer id="footer" class="inner">
+        <div>
+            <span class="company-name">ООО «Элегант Текс» 2012</span><span class="address">г. Иваново, ул. Смольная, 4/2</span><span class="phone">тел.: <span class="tel">8 800-100-85-80</span></span>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    $LAB.setGlobalDefaults({
+        BasePath:'/js/'
+    });
+</script>
+
+</body>
+</html>

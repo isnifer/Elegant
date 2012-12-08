@@ -1,0 +1,159 @@
+html, body
+  height: 100%
+
+body
+  overflow-x: hidden
+  margin: 0
+  padding: 0
+
+a
+  text-decoration: underline
+
+#container
+  min-height: 100%
+  position: relative
+  background: #0a0a15
+
+  &.inner
+    background: #fff
+
+#header
+  width: 100%
+  height: 513px
+  background: #fff url(../img/logo.png) no-repeat
+  background-position: center top
+
+  > div.head-info
+    width: 980px
+    height: 513px
+    margin: 0 auto
+    position: relative
+
+    > a.small-logo
+      width: 309px
+      height: 126px
+      position: absolute
+      top: 80px
+      left: 0
+
+    > img.description
+      width: 414px
+      height: 38px
+      position: absolute
+      top: 277px
+      left: 0
+
+    > div.call-us
+      width: 210px
+      height: 80px
+      float: right
+      margin: 0
+      background: #0b0c15
+
+      > span
+        color: #fff
+        font: 12px "DaxlineCyrSCregular"
+        margin-left: 25px
+
+        &.tel
+          color: #ef0f49
+          font: 20px "DaxlineCyrSCregular"
+
+    > ul.main-menu
+      +reset-ul
+      position: absolute
+      bottom: 0
+      left: 15px
+      height: 42px
+
+      > li
+        +reset-list
+        +display-inline-block
+
+        > a
+          color: #ef0f49
+          font: bold 20px DaxlineCyrSCregular
+          text-decoration: underline
+          padding: 10px 17px 19px
+
+          &.active
+            background: #EF0F49
+            color: white
+            padding: 10px 17px 19px
+
+          &:hover
+            color: #0a0a15
+
+  &.inner
+    height: 199px
+    background-position: center center
+
+    > div.head-info
+      width: 980px
+      height: 199px
+      margin: 0 auto
+      position: relative
+
+      > a.small-logo
+        width: 309px
+        height: 126px
+        position: absolute
+        top: 10px
+        left: 32px
+
+#main
+  width: 100%
+  background: #0a0a15
+  padding-bottom: 81px
+
+  &.inner
+    background: #fff url(../img/main-inner-bg.png) repeat-x top
+    min-height: 35px
+
+#footer
+  position: absolute
+  bottom: 0
+  width: 100%
+  height: 81px
+
+  > div
+    margin: 0 auto
+    width: 918px
+    padding-top: 30px
+    font: 15px "DaxlineCyrSCregular"
+    border-top: 1px solid #21233a
+    color: #fff
+
+    > span.company-phone
+      margin-left: 0
+
+    > span.address
+      margin-left: 40px
+
+    > span.phone
+      margin-left: 40px
+
+      > span.tel
+        color: #ef0f49
+
+  &.inner
+    border-top: 1px solid #999999
+    background: #f3f3f3
+
+    > div
+      border: 0
+      color: #0a0a15
+
+      > span.company-phone
+        margin-left: 0
+
+      > span.address
+        margin-left: 40px
+
+      > span.phone
+        margin-left: 40px
+
+        > span.tel
+          color: #ef0f49
+
+
