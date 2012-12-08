@@ -795,13 +795,12 @@ section.modal {
 }
 #catalog-page > ul.catalog > li > a {
   display: block;
-  margin-bottom: 24px;
   color: #0b0c15;
 }
 #catalog-page > ul.catalog > li > a > img {
   padding: 3px;
   border: 1px solid #8c8d91;
-  margin-top: 22px;
+  margin-top: 17px;
 }
 #catalog-page > ul.catalog > li > a:hover {
   color: #ef0f49;
