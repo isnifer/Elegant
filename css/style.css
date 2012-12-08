@@ -574,7 +574,6 @@ section.modal {
   display: none;
 }
 
-@@import _mixins.sass;
 #index-page {
   width: 916px;
   margin: 0 auto;
