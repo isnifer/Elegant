@@ -713,7 +713,8 @@ section.modal {
   color: #0b0c15;
 }
 #contacts-page > div.phone > span.tel {
-  font-family: "DaxlineCyrSCbold";
+  font-family: "DaxlineCyrSCregular";
+  font-weight: bold;
 }
 #contacts-page > aside.files {
   margin-top: 85px;
